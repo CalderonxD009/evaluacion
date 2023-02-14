@@ -32,6 +32,8 @@
  }
 
  .tus-datos {
+      display: flex;
+      flex-direction: column;
   margin: 40px;
   height: 300px;
   text-align: left;
@@ -61,8 +63,29 @@
       border-radius: 50px;
  }
 
+
+
+
 @media (max-width: 650px) {
       p{
-            display: flex;
+            padding: 20px;
       }
 }
+
+@media (max-width: 650px) {
+      .tus-datos {
+           display: flex;
+           flex-direction: column;
+           height: 400px;
+
+      }
+}
+
+@media (max-width: 650px) {
+      img{
+            margin: 5px;
+      }
+
+}
+
+

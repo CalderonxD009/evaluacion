@@ -58,10 +58,11 @@
       margin-top: 20px;
       height: 90px;
       margin-left: 90%;
+      border-radius: 50px;
  }
 
 @media (max-width: 650px) {
       p{
-            display: flex;;
+            display: flex;
       }
 }

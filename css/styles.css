@@ -8,12 +8,12 @@
  header {
   text-align: center;
   margin-top: 30px;
-  color: red;
+  color: blue;
   height: 50px;
  }
 
  body{
-  background-color: antiquewhite;
+  background-color: gray;
   font-family: sans-serif;
   color: black;
   flex-wrap: wrap;
@@ -24,19 +24,44 @@
 
 
  h2{
+  padding: 30px;
   height: 120px;
   width:  80px;
   text-align: left;
+  color: blue;
  }
 
  .tus-datos {
-  margin: 20px;
+  margin: 40px;
   height: 300px;
   text-align: left;
-  margin-top: 10%;
   background-color: white;
+  border-radius: 10px;
  }
 
  .tus-datos input {
       height: 20px;
+      margin: 10px;
+      align-items: left ;
  }
+
+
+ p{
+      height: 20px;
+      margin-left: 20px;
+      margin: 10px ;
+      margin-left: 30px;
+ }
+
+
+ img{
+      margin-top: 20px;
+      height: 90px;
+      margin-left: 90%;
+ }
+
+@media (max-width: 650px) {
+      p{
+            display: flex;;
+      }
+}

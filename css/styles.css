@@ -9,9 +9,34 @@
   text-align: center;
   margin-top: 30px;
   color: red;
+  height: 50px;
  }
 
  body{
+  background-color: antiquewhite;
   font-family: sans-serif;
   color: black;
+  flex-wrap: wrap;
+  font-size-adjust: 110%;
+  height: 100%;
+ }
+
+
+
+ h2{
+  height: 120px;
+  width:  80px;
+  text-align: left;
+ }
+
+ .tus-datos {
+  margin: 20px;
+  height: 300px;
+  text-align: left;
+  margin-top: 10%;
+  background-color: white;
+ }
+
+ .tus-datos input {
+      height: 20px;
  }

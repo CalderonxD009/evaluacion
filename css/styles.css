@@ -12,6 +12,8 @@
   height: 50px;
  }
 
+
+
  body{
   background-color: gray;
   font-family: sans-serif;
@@ -23,7 +25,7 @@
 
 
 
- h2{
+ .tus-datos h2{
   margin-top: 40px;
   margin-left: 30px;
   height: 60px;
@@ -33,9 +35,10 @@
  }
 
  .tus-datos {
-      display: flex;
-      flex-direction: column;
-  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  margin-right: 350px;
   height: 200px;
   text-align: left;
   background-color: white;
@@ -49,50 +52,230 @@
  }
 
 
- p{
+.tus-datos p{
       height: 20px;
       margin-left: 30px;
  }
 
 
  img{
-      margin-top: 20px;
+      margin-top: -10px;
       height: 90px;
-      margin-left: 90%;
+      margin-left: 42%;
       border-radius: 50px;
  }
 
+ .metodo-de-entrega{
+      display: flex;
+      flex-direction: column;
+      margin-left: 350px;
+      margin-right: 350px;
+      height: 230px;
+      text-align: left;
+      background-color: white;
+      border-radius: 10px;
+       margin-top: 30px;
+ }
+
+ .metodo-de-entrega h2{
+      margin-top: 40px;
+      margin-left: 30px;
+      height: 60px;
+      width: 300px;
+      text-align: left;
+      color: blue;
+ }
+
+img.domicilio{
+      height: 50px;
+      width: 50px;
+      margin-left: 48%;
+      margin-top: -44px;
+}
+
+img.ubicacion{
+      height: 90px;
+      width: 90px;
+      margin-left: 90%;
+      margin-top: -90px;
+}
+
+p.lugar{
+      height: 20px;
+      margin-left: 30px;
+      margin-top: 10px;
+      font-size: 12.5px;
+}
+
+.metodo-de-entrega input{
+      height: 10px;
+      margin-left: 30px;
+
+}
+
+p.cuando{
+      font-size: 12.5px;
+      height: 20px;
+      margin-left: 30px;
+}
+
+.metodo-de-entrega label{
+      font-size: 12.5px;
+}
+
+label.label-domicilio{
+      color: blue ;
+      margin-left: 48.2%;
+      height: 10px;
+}
+
+
+form{
+      margin-top: 0px;
+}
+
+
+.metodo-de-pago{
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      text-align: left;
+      background-color: white;
+      border-radius: 10px;
+      margin-top: 60px;
+}
+
+
+.metodo-de-pago h2{
+      margin-top: 40px;
+      margin-left: 30px;
+      height: 60px;
+      width: 210px;
+      text-align: left;
+      color: blue;
+}
+
+p.subtotal{
+      margin-left: 50px;
+      margin-top: 30px;
+      height: 20px;
+      width: 100px;
+}
+
+p.envio{
+      margin-left: 50px;
+      height: 20px;
+      width: 10px;
+}
+
+p.total{
+      margin-left: 50px;
+      height: 20px;
+      width: 100px;
+}
+
+label.subtotal{
+      margin-left: 70%;
+      margin-top: -15px;
+      width: 100px;
+}
+
+label.envio{
+      margin-left: 70%;
+      margin-top: -15px;
+      width: 100px;
+}
+
+label.total{
+      margin-left: 70%;
+      margin-top: -15px;
+      width: 100px;
+      margin-bottom: 30px;
+}
+
+img.pago{
+      height: 90px;
+            width: 90px;
+            margin-left: 90%;
+            margin-top: -70px;
+}
+
+button{
+      height: 300px;
+      width: 550px;
+      background-color: blue;
+      color: white;
+      font-size: 30px;
+      margin-top: 40px;
+      margin-left:5%;
+}
+
+button:hover{
+      color: gray;
+}
 
 
 
-@media (max-width: 650px) {
-      p{
-            padding: 20px;
+@media (max-width: 1020px){
+      header{
+            font-size: 12px;
       }
 }
 
-@media (max-width: 650px) {
-      .tus-datos {
 
-           display: flex;
-           flex-direction: column;
-           height: 400px;
-
-      }
-}
-
-@media (max-width: 650px) {
-      img{
-            margin: 5px;
+@media (max-width: 1020px){
+      .tus-datos{
+            margin-left: 10%;
+            max-width: 80%;
+            width: 80%;
+            flex-direction: column
+      }img{
+            margin-left: 70%;
       }
 
 }
 
-@media (max-width: 650px) {
-      h2 {
-            margin-top: 20%;
+@media (max-width: 1020px) {
+      .metodo-de-entrega{
+            margin-left: 10%;
+            width: 100%;
+            max-width: 80%;
+
+      }img.ubicacion{
+            margin-left:85%;
+      }img.domicilio{
+            display: none;
+            }label.label-domicilio{
+                  display: none;
+            }
+
       }
 
+
+@media (max-width: 1020px){
+      button{
+            max-width: 90%;
+      }
 }
 
+@media (max-width: 1020px) {
+      form {
+
+            max-width: 40%;
+      }
+}
+
+
+@media (max-width: 1020px) {
+     img.pago  {
+      margin-left: 85%;
+
+      }
+}
+
+@media (max-width: 1020px){
+      .metodo-de-pago{
+            margin-top: 15%;
+      }
+}
 

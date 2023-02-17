@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>evaluacion</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>evaluacion</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
 
-<header>
+      <header>
+        <h1>«CHECK OUT»</h1>
 
-  <h1> CHECK OUT </h1>
+        <img src="images/dip.jpg" alt="dipper" />
+      </header>
 
-  <img src="images/dip.jpg" alt="dipper">
+      <div class="tus-datos">
+        <h2>Tus Datos »</h2>
 
-</header>
+        <p>Nombre: Andres David</p>
+        <p>Apellido: Borrais Velandia</p>
+        <p>Correo Electronico: aborrais@gmail.com</p>
+        <p>Telefono o Móvil: 3144823206</p>
+      </div>
 
-  <div class="tus-datos">
+      <div class="metodo-de-entrega">
+        <h2>Metodo De Entrega »</h2>
+        <img class="domicilio" src="images/domicilio.png" alt="domicilio" />
+        <img class="ubicacion" src="images/ubicacion.png" alt="ubicacion" />
 
-    <h2> Tus Datos >> </h2>
+        <label class="label-domicilio" for="domicilio">Domicilio</label>
 
+        <p class="lugar">Donde quiero que me lo lleven?Direccion 1</p>
 
-    <p>Nombre: Andres David</p>
-    <p>Apellido: Borrais Velandia</p>
-    <p>Correo Electronico: aborrais@gmail.com</p>
-    <p>Telefono o Móvil: 3144823206</p>
+        <form>
+          <input id="direccion 1" type="radio" name="direccion" />
+          <label for="direccion 1">Direccion 1</label>
 
+          <br />
 
+          <input id="direccion 2" type="radio" name="direccion" />
+          <label for="direccion 2">Direccion 2</label>
 
+          <p class="cuando">Cuando lo quieres?</p>
 
+          <input id="opcion 1" type="radio" name="opcion" />
+          <label for="opcion 1">Opcion 1</label>
 
+          <br />
 
+          <input id="opcion 2" type="radio" name="opcion" />
+          <label for="opcion 2">Opcion 2</label>
+        </form>
 
+        <div class="metodo-de-pago">
+          <h2>Metodo De Pago »</h2>
+          <img class="pago" src="images/pago.jpg" alt="pago" />
 
-  </div>
+          <p class="subtotal">Subtotal</p>
+          <label class="subtotal" for="subtotal">$20.900</label>
+          <p class="envio">Envio</p>
+          <label class="envio" for="envio">$5.500</label>
+          <p class="total">Total</p>
+          <label class="total" for="total">$26.400</label>
+        </div>
 
+        <button class="hacerpedido">HACER PEDIDO</button>
 
-
-
-
-
-</body>
+        <br />
+      </div>
+    
+  </body>
 </html>
